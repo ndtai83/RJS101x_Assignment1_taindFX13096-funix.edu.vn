@@ -23,7 +23,12 @@ class StaffList extends Component {
     renderstaff(staff) {
         if(staff != null) {
             return (
-                <div>
+                <div class="detail">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <h4>Họ và tên: {staff.name}</h4>
                     <p>Ngày sinh: {staff.doB}</p>
                     <p>Ngày vào công ty: {staff.startDate}</p>
@@ -35,6 +40,11 @@ class StaffList extends Component {
         } else {
             return (
                 <div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <p>Bấm vào tên nhân viên để xem thông tin.</p>
                 </div>
             );

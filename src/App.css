@@ -21,6 +21,10 @@ div {
   padding-left: 10px;
   border-style: ridge;
 }
+
+.detail {
+  border-style: ridge;
+}
 /* .App {
   text-align: center;
 }
